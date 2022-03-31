@@ -2,11 +2,6 @@ body {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     /* font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif; */
@@ -16,6 +11,19 @@ a {
     text-decoration: none;
     display: inline;
     color: black;
+}
+
+.home-body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.grid-container {
+    max-width: 980px;
+    margin: auto;
 }
 
 header {
@@ -140,7 +148,7 @@ Estilos blogs.html
 }
 
 .blogs-news-img-container img {
-    
+    width: 85%;
 }
 
 .blogs-news-info-container {
@@ -150,3 +158,58 @@ Estilos blogs.html
 .blogs-news-info-container p {
     margin-bottom: 35px;
 }
+
+.blogs-post-container {
+    padding: 0 50px 40px;
+}
+
+.blogs-posts-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.blogs-button {
+    border: 1px solid #47cfac;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.blogs-button:hover {
+	border: 1px solid white;
+	color: white;
+	background-color: #48CFAD;
+}
+
+.blogs-posts-container .post-container {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.blogs-posts-container .post-container p {
+    margin-bottom: 35px;
+}
+
+.blogs-posts-container .post-container img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #22272d;
+    border-top: 35px solid #47cfac
+}
+
+footer p {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*
+Estilos blogspost.html
+*/
+
+
