@@ -259,10 +259,59 @@ Estilos blogspost.html
     width: 100px;
 }
 
+.profile-main-container {
+    padding: 70px 40px;
+    background-color: #e6e9ed;
+    margin-bottom: 50px;
+}
+
+.grid-image-container {
+    width: 1450px;
+    height: 250px;
+    background-image: url(../assets/img/hquintero2022.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+/* .profile-main-container img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+} */
+
+.grid-text-container {
+    margin-left: 40px;
+    text-align: justify;
+}
+
+.profile-main-container .profile-container {
+    display: flex;
+}
+
+.profile-main-projects {
+    padding:  0 50px 40px;
+}
+
+.profile-main-projects h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.projects-main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project-container {
+    padding: 0 5px;
+}
+
+
 
 
 /**  Mi codigo. Por terminar
-
 
 .contact-main-container {
     display:grid;
